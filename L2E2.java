@@ -19,10 +19,19 @@ public class L2E2{
 			{
 				a[i] = a[i].toUpperCase();
 			}
+			for(int i = ((n/2)+1); i<n; i++)
+			{
+				a[i] = a[i].toLowerCase();
+			}
+			
 		}
 		else
 		{
 			for(int i =0; i<=((n/2)+1); i++)
+			{
+				a[i] = a[i].toUpperCase();
+			}
+			for(int i = ((n/2)+2); i<n; i++)
 			{
 				a[i] = a[i].toLowerCase();
 			}
